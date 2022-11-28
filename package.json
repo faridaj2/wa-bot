@@ -1,18 +1,22 @@
 {
   "name": "bot-wa",
   "version": "1.0.0",
-  "description": "Bot-WA",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "node.js",
-    "javascript"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faridaj2/wa-bot.git"
+  },
   "author": "Farid Anjali",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faridaj2/wa-bot/issues"
+  },
+  "homepage": "https://github.com/faridaj2/wa-bot#readme",
   "dependencies": {
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.18.4"
