@@ -17,8 +17,18 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if(message.body === 'assalamualaikum') {
-		client.sendMessage(message.from, 'waalaikum salamg');
+		client.sendMessage(message.from, 'waalaikum salam');
 	}
+    client.on('message', message => {
+        if(message.body === 'alamat') {
+            client.sendMessage(message.from, 'krajan Jalan Raden Wijaya No, Jl. R Supono, Jalen I, Setail, Kec. Genteng, Kabupaten Banyuwangi, Jawa Timur 68486');
+        }
+    });
+    client.on('message', message => {
+        if(message.body === 'ig') {
+            client.sendMessage(message.from, 'Kamu bisa menemukan instagram kami di @dartsachannel');
+        }
+    });
 });
  
 client.initialize();
